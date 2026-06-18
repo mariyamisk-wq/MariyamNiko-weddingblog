@@ -264,6 +264,7 @@
       line-height:1.92;
       color:#4d4d4d;
     }
+    
 
     .rule-link{
       display:inline-block;
@@ -616,9 +617,18 @@
     }
 
     section[aria-label="Subscribe example"] h3{
-      color:#666;
-      font-weight:400;
-      font-size:1rem;
+      color:#4d4d4d;
+      font-weight:500;
+      font-size:1.2rem;
+      margin-bottom:0.9rem;
+      margin-top:1.6rem;
+    }
+
+    section[aria-label="Subscribe example"] p{
+      margin:0 auto;
+      font-size:.9rem;
+      line-height:1.92;
+      color:#4d4d4d;
     }
 
     form.grid{
@@ -993,115 +1003,8 @@
         width:58%;
       }
     }
-    .password-overlay{
-  position:fixed;
-  inset:0;
-  z-index:9999;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:1.5rem;
-  background:
-    linear-gradient(180deg, rgba(255,255,255,.55), rgba(236,235,234,.92)),
-    url("https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
-  backdrop-filter:blur(3px);
-}
 
-.password-card{
-  position:relative;
-  width:min(100%, 520px);
-  padding:4.5rem 2rem 2.2rem;
-  background:rgba(255,255,255,.90);
-  border:1px solid rgba(0,0,0,.06);
-  box-shadow:0 20px 50px rgba(0,0,0,.12);
-  text-align:center;
-  overflow:hidden;
-}
 
-.password-script{
-  position:absolute;
-  top:1.2rem;
-  left:50%;
-  transform:translateX(-50%);
-  font-family:"Parisienne", cursive;
-  font-size:clamp(3rem, 8vw, 5.5rem);
-  color:rgba(215,210,205,.8);
-  line-height:1;
-  pointer-events:none;
-}
-
-.password-eyebrow{
-  position:relative;
-  z-index:1;
-  font-size:.58rem;
-  letter-spacing:.24em;
-  text-transform:uppercase;
-  color:#6f6f6f;
-  margin-bottom:.85rem;
-}
-
-.password-card h2{
-  position:relative;
-  z-index:1;
-  font-family:"Pinyon Script", cursive;
-  font-size:clamp(2.6rem, 6vw, 4.3rem);
-  font-weight:400;
-  color:#1f1f1f;
-  margin:0 0 .6rem;
-}
-
-.password-text{
-  position:relative;
-  z-index:1;
-  max-width:28rem;
-  margin:0 auto 1.6rem;
-  font-family:"Cormorant Garamond", serif;
-  font-size:1.05rem;
-  line-height:1.7;
-  color:#555;
-}
-
-.password-form{
-  display:grid;
-  grid-template-columns:1fr auto;
-  gap:.75rem;
-  align-items:center;
-  max-width:380px;
-  margin:0 auto;
-}
-
-.password-form input{
-  margin:0;
-  border-radius:0;
-  border:1px solid #d9d6d1;
-  background:rgba(255,255,255,.92);
-  box-shadow:none;
-  font-family:"Inter", sans-serif;
-}
-
-.password-form button{
-  margin:0;
-  border-radius:0;
-  background:#d9d7d3;
-  border:1px solid #c4c1bc;
-  color:#444;
-  padding:.95rem 1.1rem;
-  font-size:.68rem;
-  letter-spacing:.18em;
-  text-transform:uppercase;
-}
-
-.password-message{
-  min-height:1.2rem;
-  margin-top:1rem;
-  font-size:.72rem;
-  letter-spacing:.08em;
-  color:#8a5a5a;
-}
-
-.password-overlay.is-hidden{
-  display:none;
-}
 
 @media (max-width: 600px){
   .password-card{
@@ -1119,27 +1022,7 @@
   </style>
 </head>
 <body>
- <div id="password-overlay" class="password-overlay">
-    <div class="password-card">
-      <div class="password-script">welcome</div>
-      <p class="password-text">
-        Please enter the password to access our wedding blog
-      </p>
 
-      <form id="password-form" class="password-form">
-        <input
-          type="password"
-          id="site-password"
-          placeholder="Enter password" class="password-text"
-          aria-label="Enter password"
-          required
-        />
-        <button type="submit" class="password-text">Enter</button>
-      </form>
-
-      <p id="password-message" class="password-message" aria-live="polite"></p>
-    </div>
-  </div> 
   <main class="container" id="home">
     <div class="site-wrap">
       <section>
@@ -1189,7 +1072,7 @@
                 so special. We hope you enjoy following along as we prepare for our big day and 
                 create memories that will last a lifetime.
               </p>
-              <p><a href="our_story.html" class="rule-link">read our story here</a></p>
+              <p><a href="https://chat.whatsapp.com/LpUPhwTuv5Q3BdTSoorcFv" class="rule-link"><strong>join the whatsapp group</strong></a></p>
               <a href="#info" class="rule-link">read about the wedding information here</a>
             </div>
 
@@ -1200,9 +1083,12 @@
                     <img src="sunas.png" alt="wedding location">
                   </div>
                   <div class="stack-card">
-                    <h3>Location</h3>
+                    <h3>Hotel</h3>
                     <p>
-                      A beautiful pier overlooking the mediterranean sea. Prepare yourself for breathtaking sea views, firelights and romantic sunset colors.
+                      We will be staying at the Lapida Garden Hotel, reserved exclusively for our wedding guests. 
+                      Rooms will be allocated by us. Two nights are reserved for all guests from 7 to 9 August.
+                      Payment is to be done by guests during check-in, the hotel manager will give you your room and price to pay.
+                      <br><a href="#hotel-questions" class="rule-link" style="font-weight: bold;">hotel information here</a>
                     </p>
                   </div>
                 </article>
@@ -1219,7 +1105,7 @@
                       <br>Rules: White is for the bride. No jeans, no sneakers. <br>Show us your fanciest summer outfits! 
                     </p>
                     <img src="colorpalette.png" alt="colorpallette" max-width="50%">
-                    <a href="https://pin.it/aMsvRGjHp" target="_blank" class="rule-link">get inspired</a>
+                    <a href="https://pin.it/aMsvRGjHp" target="_blank" class="rule-link" style="font-weight: bold;">get ideas here</a>
                   </div>
                 </article>
 
@@ -1228,12 +1114,15 @@
                     <img src="transport.jpg" alt="Transport">
                   </div>
                   <div class="stack-card">
-                    <h3>Transport</h3>
+                    <h3>Programm</h3>
                     <p>
-                      We will provide a shuttle bus for all locations during the official wedding program days. 
-                      <br>If you wish to travel privately we recommend ordering local taxi or contact us for car rental options.
-                      <br> In July we will share more information about the possibility of pick-ups. 
-                      <br><strong>Please give us your flight details in the form below.</strong>
+                    <strong>August 6th/7th</strong>: Arrival day at the hotel
+                    <strong>19:00 (August 7th)</strong> Special event in Kyrenia Harbour. 
+                    <br>
+                    <strong>August 8th, daytime</strong>: Free time / Preparations for the wedding
+                    <br><strong>19:00</strong>: Official wedding celebration
+                    <br><strong>August 9th</strong>: No official program, breakfast, check-out, free time
+                      <br><a href="#programm-questions" target="_blank" class="rule-link" style="font-weight: bold;">detailed plan here</a>
                     </p>
                   </div>
                 </article>
@@ -1243,16 +1132,19 @@
                     <img src="meze.jpg" alt="Meze">
                   </div>
                   <div class="stack-card">
-                    <h3>Food</h3>
+                    <h3>Arrival in Cyprus</h3>
                     <p>
-                      We will have a mediterranean meze consisting of many appetizers, a main meat or vegetarian dish and dessert. 
-                      <br>Drinks will also be provided, but we must know in advance if you prefer non-alcoholic drinks.
-                      <br><br> <strong>Please fill out the form below for your food and drink preferences.</strong>
+                      <strong>Detailed planning will be done over the WhatsApp group.</strong>
+                      <br><strong>Larnaca/Paphos:</strong> 
+                      Take the Kapnos Shuttle Bus from the airport to Nicosia. We will try to pick you up from there and drive you to the hotel. 
+                      <br><strong>Ercan</strong>: Either we will pick you up, or you would have to take a taxi/bus.
+                      <br>If we can't pick you up, we will let you know privately.
+                      <br><a href="#arrival-questions" target="_blank" class="rule-link" style="font-weight: bold;">arrival instructions here</a>
                     </p>
                   </div>
                 </article>
+
               </div>
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScK_X5QpevqbjP5fWZhUTOcNhTnWbAps9SdgXJayEYBaVa1RQ/viewform?embedded=true" width="100%" height="720" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
 
             <div id="presents" class="feature-spring">
@@ -1277,10 +1169,24 @@
   <img src="paypal.jpeg" alt="Paypal" class="paypal-logo">
 </div>
               </div>
+             
               <div class="gift-progress">
                 <div class="progress-label">
                   <span>Honeymoon</span>
-                  <span>€0 / €5000</span>
+                  <span>€0 / €2000</span>
+                </div>
+
+                <div class="progress-bar">
+                  </div>
+                </article>
+                              
+              </div>
+            
+              
+              <div class="gift-progress">
+                <div class="progress-label">
+                  <span>Wedding Costs</span>
+                  <span>€0 / €30,000</span>
                 </div>
 
                 <div class="progress-bar">
@@ -1344,15 +1250,213 @@
   </main>
 
   <section aria-label="Subscribe example" id="faq">
-    <div class="container">
       <article>
         <hgroup>
           <h2>FAQs</h2>
         </hgroup>
+
+      <hgroup>
+          <h3 id="arrival-questions">How do I get to the hotel upon arrival?</h3>
+        </hgroup>
+        <p>We will be putting you guys in travel groups based on your arrival times. Information on that will follow via Whatsapp.<br></p>
+          <p><strong>Arrival in Larnaca/Paphos on 6th of August</strong>: We strongly recommend you to not book any hotels by yourself, instead we will transport you  directly to the wedding hotel upon arrival.
+            <br>Reason for that is because on the 7th we are already fully busy with transferring friends and family from the airport, so we will not have time to transfer other groups.
+            <br>Upon arrival you will have the take the Kapnos Airport Shuttle from the airport to Nicosia. Departure times
+            can be found online at <a href="https://kapnosairportshuttle.com/timetables" target="_blank">https://kapnosairportshuttle.com/timetables</a>.
+            You can book the tickets online or in person at the Kapnos ticket booth upon arrival. The price is €10 from Larnaca and €18 from Paphos airport. Buses from Larnaca go almost every hour. 
+            Buses from Paphos have very specific times, so keep that in mind!
+            <br>We will pick you up from the Nicosia Kapnos station and transport you over the border and bring you directly to the Hotel. <br><br>
+          </p>
+
+          <p><strong>Arrival in Larnaca/Paphos on 7th of August</strong>: You will have to the take the Kapnos Airport Shuttle from the airport to Nicosia. Departure times
+            can be found online at <a href="https://kapnosairportshuttle.com/timetables" target="_blank">https://kapnosairportshuttle.com/timetables</a>.
+            You can book the tickets online or in person at the Kapnos ticket booth upon arrival. The price is €10 from Larnaca and €18 from Paphos. Buses from Larnaca go almost every hour. 
+            Buses from Paphos have very specific times, so keep that in mind!
+            <br>We will pick you up from the Nicosia Kapnos station and transport you over the border. We will either bring you directly to the hotel, 
+            or drop you off in Kyrenia, depending on our available time. From there you can either stay in Kyrenia (for the special event in the evening) or take a taxi to the hotel.          </p>
+        <p><strong>Arrival in Ercan</strong>: You can take a bus to Kyrenia and then a taxi to the hotel from there. Alternatively you can take a taxi directly to the hotel. 
+          In special cases we might be able to pick you up, but if that's the case we will contact you privately. 
+        </p>
+            <hgroup>
+         <h3 id="hotel-questions">What hotel will we be staying in?</h3>
+        </hgroup>
+
+          <p>
+            Our wedding guests will be staying at the <strong>Lapida Garden Hotel</strong>. You can find more information about the hotel here:
+            <a href="https://www.lapidahotel.com/" target="_blank">https://www.lapidahotel.com/</a>
+          </p>
+          <p><br>Price per room for 2 persons is €55, plus extra €10 for every extra bed. Breakfast included.</p>
+          <p>
+            <br>The hotel is a small, family-style hotel with around 30 rooms. All rooms have been reserved for our wedding guests. There are rooms for two, three, and four people. Room allocation will be arranged by us. When you arrive at the hotel, you will receive your room number and (if relevant) you can pay for your room directly at check-in. 
+            Card payment is possible. If you prefer to pay in cash, Turkish Lira is best.
+          </p>
+
+          <p>
+            <strong>Check-in:</strong> 14:00 (you can come earlier and leave your stuff at the hotel/chill at the pool if your room isn't ready)<br>
+            <strong>Check-out:</strong> 12:00 (you can leave your stuff at the hotel/chill at the pool if you have a later flight)
+          </p>
+
+          <p>
+            All rooms are equipped with air conditioning and a fridge. Most rooms also have a balcony. Shampoo, shower gel, hairdryer and towels are also provided. 
+          </p>
+
+          <p>
+            Breakfast is served as a buffet from <strong>8:30 to 10:30</strong>. For lunch and dinner, you can either eat directly at the hotel from a small menu, have food delivered to the pool area or visit one of the nearby restaurants (we recommend Driftfood). The hotel also has a garden-style pool area with a pool bar. Since we are the only guests, the opening hours of the bar and reception may be flexible. They will likely stay open as long as people are still ordering drinks.
+          </p>
+
+          <p>
+            Wi-Fi is available at the hotel. During our last visit, it was not working very well, but the hotel promised to get it fixed. If you need to rely on a stable internet connection, we recommend getting an eSIM just to be safe.
+          </p>
+
+          <hgroup>
+            <h3 id="programm-questions">What is the programm? </h3>
+          </hgroup>
+
+          <p>
+            <strong>7th of August</strong><br>
+            Arrival day for all guests at the hotel. In the evening, we have organized a special event for everyone in
+            <strong>Girne / Kyrenia Harbour</strong>. The event will start at <strong>18:30</strong>. 
+            Please arrive on time, if you are late, you won't be able to participate. The meeting point is in front of 
+            PUSULA Fish Restaurant.
+          </p>
+
+          <p>
+            <br>
+          For people going to the harbour directly from the hotel, we will organize a transfer/taxis all together. 
+          The drive from the hotel to the harbour takes around 30 minutes. <br>For everyone else, please organize your 
+          transportation to the harbour yourself. We recommend going early, so you can explore the beautiful town before the event. 
+          If you do not want to check in at the hotel first, you can also come to Kyrenia directly from the airport. There will be a 
+          possibility to store your luggage during the event.
+          </p>
+
+          <p>
+            <br>
+            To bring with you to the event: swimwear, a towel, sunglasses, sun protection, 
+            some cash or a credit card, and of course good mood. We decided not to provide food during this event. 
+            We recommend eating at the beautiful harbour either before the event (but don't eat too much) or after. 
+            The event will end around <strong>21:30 to 22:30</strong>, so you can also have late dinner there after the event. 
+            For the people going directly from the hotel we can order some pizza to the hotel before driving to the event.<br><br>
+          </p>
+
+
+
+          <p><strong>8 August</strong><br>
+            After hopefully a great first evening and night, you can sleep in, relax, and enjoy the morning breakfast/pool.
+          </p>
+
+          <p>
+            Our program on 8 August only starts in the evening. During the day, we recommend spending time at the pool, going to one of the beaches, exploring North Cyprus or just aura farming for the main event. Feel free to do whatever you like and organize groups with each other, just be back at the hotel and ready to go on time for the main event.
+          </p>
+
+          <p>
+            Transport to the official wedding celebration will start at <strong>18:30</strong>. We will organize transportation from the hotel to the event location. Transportation back to the hotel will also be provided later in the evening. Please dress according to the dress code.
+          </p>
+
+
+          <p>
+            The location will be open until around <strong>1:00 to 2:00</strong>. We can continue the party at the hotel.<br><br>
+          </p>
+
+
+
+          <p><strong>9 August</strong><br>
+            There will be no official program on 9th of August. Please keep the breakfast times in mind. If you are not staying for another night, check-out is until <strong>12:00</strong>. You can of course stay at the hotel longer after check-out and leave your luggage at the reception.
+          <br><br></p>
+
+
+
+          <p><strong>10th of August</strong>
+            Everyone coming with us to the Ayia Napa holiday is staying one night longer and checking out on 10th of August. We will check out immediately after early breakfast. We will travel and cross the border from the Nicosia Old City Center Checkpoint and take busses directly to Ayia Napa from there to make the most of the day at the blue flag beach. Whoever wants to stay longer in the old city center can do that and then come to Ayia Napa later in the day.
+          </p>
+
+          <hgroup>
+            <h3>What rules apply so far?</h3>
+          </hgroup>
+          <p>
+            1. Even though the location is by the sea, we have been asked by the host not to swim at night once it is dark. 
+            We kindly ask you to respect this. 
+            <br><br>2. There will be a photographer and videographer at the wedding. We kindly ask you not to film everything on your phones and instead enjoy the moment.
+          </p>
+
+          <hgroup>
+            <h3>Can I contribute in any way?</h3>
+          </hgroup>
+          <p>
+            You could contribute by organizing a game, activity, speech, or anything else that your heart wishes to express on our wedding day. Please inform us beforehand so that we can plan the evening program accordingly. If you don't want to spoil us your surprise contribution, you can just give us a head ups that you will do something and the approximate time it will take, just so that we have it in the programm.
+          </p>
+
+          <hgroup>
+            <h3>What is around the hotel?</h3>
+          </hgroup>
+          <p>
+            The hotel is located between the sea and the mountains in a little holiday seaside area. 
+            The nearest beach is around 15 minutes away on foot. 
+            Please note that many beaches in North Cyprus are private and belong to restaurants. 
+            This means you can often combine going for food or drinks with swimming in the sea. 
+            Please either walk to the beach or organize taxis together with other guests. 
+            The hotel staff will be happy to help you with this. Parking at the hotel and near all restaurants is available for free in case you decide to rent a car.
+          </p>
+
+          <p>
+            <br>Next to the hotel, there is a small minimarket where you can buy water, snacks, and other basic items. Please note that tap water in all of Cyprus is not drinkable, so you should buy bottled water.
+          </p>
+
+          <p>
+            <br>5 Minutes walk from the hotel is also a stunning walking area right next to the sea that passes through a little fishing port. If you want to go for a sunset walk with the sea (literally) right beneath you, we recommend going there. You just have to walk directly down to the sea from the hotel.
+          </p>
+
+          <hgroup>
+            <h3>How do we get to the wedding venue on 8th of August?</h3>
+            </hgroup>
+
+          <p>
+            The wedding venue is around 35 minutes away on foot or around 5 minutes by car from the hotel. Transport to the venue and back will be organized by us (either shuttle busses or taxis). <br>
+          </p>
+
+          <hgroup>
+            <h3>What must I bring?</h3>
+            </hgroup>
+          <p>
+            Power sockets are type G, so please bring/buy an appropriate adapter, you can also buy one at the supermarket in Cyprus. If anyone is interested in hiking in the nearby mountains, please contact us. We would need to check whether and how this can be organized.
+          </p>
+
+
+
+
+          <hgroup>
+            <h3>What can I do in Northern Cyprus?</h3>
+            </hgroup>
+          <p>
+            - St. Hilarion Castle
+            <br>
+            - Bellapais Castle
+            <br>- Varosha (ghost town)
+            <br>- Kyrenia Harbour (we recommend visiting here on Friday midday and having early dinner in one of the tavernas, since this is the meeting point for our special even later Friday evening)
+            <br>- Nicosia Center Old town (We recommend seeing this before check-in or after check-out, as it is around 40 minutes away from the hotel and right next to the Southern side)
+            <br>- Karpaz Area with the abandoned Churches and wild beaches (we will be very surprised if you manage to find the time and the means of transport to geth there haha)
+            <br>- Beaches near the hotel: Vasilia Beach (wide beach with nice views, with turtle nests, a bit on the "natury" side), Escape Beach (water sports and other activities available), Driftfood Beach (convenient location with sandy beach)
+            If anyone is interested in hiking in the nearby mountains, please contact us. We would need to check whether and how this can be organized.
+          </p>
+
+          <p>
+            For all guests, at least two nights have been booked at the hotel: <strong>7 to 9 August</strong>. We are currently checking who will arrive earlier or stay longer. Please let us know as soon as possible if you would like to stay at the hotel before 7 August or after 9 August, as we need to reserve the rooms accordingly. For late or last-minute requests, we cannot guarantee that there will still be rooms available at the hotel outside the two confirmed nights. In that case, you may need to book a room at another nearby hotel.
+          </p>
+
+          <hgroup>
+          <h3 id="">How do I get from the hotel to the airport?</h3>
+        </hgroup>
+        <p>Currently we are unable to plan all departures in detail. But here is a rough plan:
+          <br><strong> Departure on 9th of August</strong>: We will help you create travel groups to take taxis to Ercan/border. 
+          From the border you will have to organize your own transfer to Larnaca/Paphos either by taxi or Kapnos Airport Bus Service.
+        </p>
+        <p><br><strong> Departure on 10th of August to the Airports</strong>: You will have to organize everything yourself. We can only help you organize travel groups.
+        </p>
+          <p><br><strong> Departure on 10th of August to Ayia Napa</strong>: We will organize cars/taxis to the border point in Nicosia Old Town City Center. 
+          From there we will take Intercity buses directly to Ayia Napa. <br><br>
+        </p>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc-Y3Zi0AMsjPD8sfHemCATt0KnqFuK_SWqcbcRuJ1LFJCLNA/viewform?embedded=true" 
-          width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </article>
-    </div>
+        width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </article>
   </section>
   
 
@@ -1361,30 +1465,5 @@
       Designed and programmed by Mariyam Iskendirova and a few AI friends
     </div>
   </footer>
-<script>
-  (function () {
-    const correctPassword = "areyouready?";
-    const form = document.getElementById("password-form");
-    const input = document.getElementById("site-password");
-    const message = document.getElementById("password-message");
-    const overlay = document.getElementById("password-overlay");
-
-    form.addEventListener("submit", function (event) {
-      event.preventDefault();
-
-      if (input.value === correctPassword) {
-        overlay.classList.add("is-hidden");
-        document.body.style.overflow = "";
-      } else {
-        message.textContent = "Incorrect password. Please try again.";
-        input.value = "";
-        input.focus();
-      }
-    });
-
-    document.body.style.overflow = "hidden";
-    input.focus();
-  })();
-</script> 
 </body>
 </html>
